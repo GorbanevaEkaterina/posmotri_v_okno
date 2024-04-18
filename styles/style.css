@@ -14,7 +14,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -44,67 +44,60 @@ ol {
   justify-content: space-between;
   align-items: flex-end;
   margin: 133px auto;
-max-width: 1140px;
-max-height: 534px;
-gap: 32px;
+  max-width: 1140px;
+  max-height: 534px;
+  gap: 32px;
 }
 .result {
   min-height: 534px;
-  }
-  
-  .result__video-container {
-    position: relative;
-    min-height: 386px;
-    max-width: 711px;
-    margin-top: 75px;
-    margin-bottom: 16px;
-  }
-  
-  .result__video {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-  .search-form {
-    display: flex;
-    min-width: 711px;
-    align-items: flex-start;
-    gap: 40px;
-  }
+}
+
+.result__video-container {
+  position: relative;
+  min-height: 386px;
+  max-width: 711px;
+  margin-top: 75px;
+  margin-bottom: 16px;
+}
+
+.result__video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.search-form {
+  display: flex;
+  min-width: 711px;
+  align-items: flex-start;
+  gap: 40px;
+}
 .search-form__fieldset {
 }
 .search-form__fieldset-title {
   color: rgb(255, 255, 255);
-font-family: 'Fira Sans Condensed';
-font-size: 18px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0%;
-text-align: left;
+  font-family: "Fira Sans Condensed";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 .search-form__label {
 }
 .search-form__label-text {
 }
 .visually-hidden {
-  position: absolute; /* элемент вырывают из потока */
-
-width: 1px; /* делают элемент очень маленьким, но таким, чтобы не пропал совсем */
-
-height: 1px;
-
-margin: -1px; /* элемент убирают из поля зрения, сдвинув на размер самого себя */
-
-padding: 0; /* обнуляют отступы, они есть у некоторых элементов по умолчанию */
-
-border: 0; /* убирают границу, она тоже может быть у каких-то элементов */
-
-clip: rect(0 0 0 0); /* это свойство обрезает видимую область до нулевого значения */
-
-overflow: hidden; /* на всякий случай скрывают видимое за пределами блока */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .search-form__textfield {
 }
@@ -124,20 +117,18 @@ overflow: hidden; /* на всякий случай скрывают видим�
   width: 100%;
   height: 100%;
   gap: 26px;
-
 }
 .title {
-  font-family: 'Oswald';
-font-size: 75px;
-font-weight: 700;
-line-height: 94%;
-letter-spacing: 0%;
-text-align: left;
-text-transform: uppercase;
+  font-family: "Oswald";
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 94%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
 }
 .content__accent {
   color: #545050;
-
 }
 
 .content__list {
@@ -147,7 +138,6 @@ text-transform: uppercase;
   max-height: 298px;
   overflow-y: scroll;
   max-width: 394px;
-
 }
 .preloader-template {
 }
@@ -161,7 +151,7 @@ text-transform: uppercase;
 }
 .content__list-item {
   display: flex;
-  
+
   margin-bottom: 30px;
 }
 
@@ -173,8 +163,6 @@ text-transform: uppercase;
 }
 .content__video-card {
   display: flex;
-  
-  
 }
 .content__video-card-description-container {
 }
@@ -196,17 +184,3 @@ text-transform: uppercase;
 }
 .error__title {
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
