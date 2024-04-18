@@ -10,6 +10,7 @@ html {
 
 .page {
   inline-size: 1200px;
+  min-height: 800px;
   block-size: 100%;
   margin: auto;
   color: #fff;
@@ -42,25 +43,81 @@ ol {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  margin: auto;
+  margin: 133px auto;
 max-width: 1140px;
 max-height: 534px;
 gap: 32px;
 }
-
-.search-form {
-  display: flex;
-  min-width: 711px;
-  align-items: flex-start;
-  gap: 40px;
+.result {
+  min-height: 534px;
+  }
+  
+  .result__video-container {
+    position: relative;
+    min-height: 386px;
+    max-width: 711px;
+    margin-top: 75px;
+    margin-bottom: 16px;
+  }
+  
+  .result__video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .search-form {
+    display: flex;
+    min-width: 711px;
+    align-items: flex-start;
+    gap: 40px;
+  }
+.search-form__fieldset {
 }
-
-.content__list {
-  max-height: 298px;
-  overflow-y: scroll;
-
+.search-form__fieldset-title {
+  color: rgb(255, 255, 255);
+font-family: 'Fira Sans Condensed';
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
 }
+.search-form__label {
+}
+.search-form__label-text {
+}
+.visually-hidden {
+  position: absolute; /* элемент вырывают из потока */
 
+width: 1px; /* делают элемент очень маленьким, но таким, чтобы не пропал совсем */
+
+height: 1px;
+
+margin: -1px; /* элемент убирают из поля зрения, сдвинув на размер самого себя */
+
+padding: 0; /* обнуляют отступы, они есть у некоторых элементов по умолчанию */
+
+border: 0; /* убирают границу, она тоже может быть у каких-то элементов */
+
+clip: rect(0 0 0 0); /* это свойство обрезает видимую область до нулевого значения */
+
+overflow: hidden; /* на всякий случай скрывают видимое за пределами блока */
+}
+.search-form__textfield {
+}
+.search-form__checkbox-list {
+}
+.search-form__checkbox {
+}
+.search-form__pseudo-checkbox {
+}
+.button {
+}
+.search-form__submit-button {
+}
 .content__details {
   display: flex;
   flex-direction: column;
@@ -69,3 +126,87 @@ gap: 32px;
   gap: 26px;
 
 }
+.title {
+  font-family: 'Oswald';
+font-size: 75px;
+font-weight: 700;
+line-height: 94%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+.content__accent {
+  color: #545050;
+
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 298px;
+  overflow-y: scroll;
+  max-width: 394px;
+
+}
+.preloader-template {
+}
+.preloader {
+}
+.preloader-chasing-squares {
+}
+.square {
+}
+.cards-list-item-template {
+}
+.content__list-item {
+  display: flex;
+  
+  margin-bottom: 30px;
+}
+
+.content__list-item:last-child {
+  margin-bottom: 0;
+}
+.content__card-link {
+  display: block;
+}
+.content__video-card {
+  display: flex;
+  
+  
+}
+.content__video-card-description-container {
+}
+.content__video-card-title {
+}
+.content__video-card-description {
+}
+.content__video-card-thumbnail {
+  max-width: 194px;
+  max-height: 103px;
+}
+.more-button-template {
+}
+.more-button {
+}
+.error-template {
+}
+.error {
+}
+.error__title {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
