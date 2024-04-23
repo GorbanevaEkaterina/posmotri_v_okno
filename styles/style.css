@@ -42,13 +42,14 @@ ol {
   display: flex;
   align-items: flex-end;
   margin: 133px 30px;
+  block-size: 534px;
   min-inline-size: 1140px;
   gap: 30px;
 }
 
 .result__video-container {
   position: relative;
-  max-height: 386px;
+  block-size: 386px;
   inline-size: 711px;
   margin-bottom: 16px;
 }
