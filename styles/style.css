@@ -10,8 +10,9 @@ html {
 
 .page {
   display: flex;
+  align-items: center;
   inline-size: 1200px;
-  block-size: 100%;
+  min-block-size: 100%;
   margin: 0 auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
