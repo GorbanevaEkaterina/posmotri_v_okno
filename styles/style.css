@@ -42,8 +42,7 @@ ol {
   display: flex;
   align-items: flex-end;
   margin: 133px 30px;
-  /* height: 534px; */
-  inline-size: 1140px;
+  min-inline-size: 1140px;
   gap: 30px;
 }
 
