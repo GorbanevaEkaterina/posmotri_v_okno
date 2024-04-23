@@ -46,9 +46,6 @@ ol {
   inline-size: 1140px;
   gap: 30px;
 }
-.result {
-  
-}
 
 .result__video-container {
   position: relative;
@@ -131,12 +128,7 @@ text-align: left;
   display: flex;
   gap: 15px;
 }
-.search-form__checkbox {
-  display: flex;
-  inline-size: 100%;
-  gap: 15px;
-  
-}
+
 .search-form__pseudo-checkbox {
   display: block;
   inline-size: 19px;
@@ -198,14 +190,7 @@ background: #1b1919;
   scrollbar-color: #1b1919 #1b1919;
   block-size: 298px;
 }
-.preloader-template {
-}
-.preloader {
-}
-.preloader-chasing-squares {
-}
-.square {
-}
+
 .cards-list-item-template {
   max-width: 298px;
 }
@@ -257,16 +242,9 @@ margin-bottom: 4px;
   object-fit: cover;
   object-position: center;
 }
-.more-button-template {
-  
-}
+
 .more-button {
   padding: 6px 146.5px;
   white-space: nowrap;
 }
-.error-template {
-}
-.error {
-}
-.error__title {
-}
+
