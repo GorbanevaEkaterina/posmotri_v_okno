@@ -131,6 +131,7 @@ ol {
   border-left: none;
   border-right: none;
   inline-size: 225px;
+  appearance: none; 
 }
 
 .search-form__textfield:focus {
@@ -219,7 +220,7 @@ ol {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  overflow-y: scroll;
+  overflow: auto;
   scrollbar-width: thin;
   scrollbar-color: #1b1919 #1b1919;
   block-size: 298px;
