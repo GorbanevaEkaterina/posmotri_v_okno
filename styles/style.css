@@ -39,6 +39,17 @@ ol {
   list-style: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .content {
   display: flex;
   align-items: flex-end;
@@ -109,16 +120,7 @@ ol {
   text-align: left;
   appearance: none;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 .search-form__textfield {
   width: 100%;
   border-bottom: 1px solid #fff;
